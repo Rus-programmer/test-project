@@ -1,0 +1,24 @@
+.main-layout {
+  display: flex;
+  height: 60px;
+  background-color: #1f9db9;
+  justify-content: space-between;
+  box-shadow: 0 5px 20px #c4c4c4;
+  padding: 0 5rem 0;
+  align-items: center;
+  color: white;
+}
+
+.menu-items {
+  display: flex;
+  gap: 5rem;
+  cursor: pointer;
+
+  &__item {
+    &:hover {
+      color: #fdfdcc;
+    }
+  }
+
+
+}

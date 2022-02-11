@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
+# Задание: 
+
+1. Создайте проект с нуля для ангуляр.
+2. Создайте страницу с подключением роутера
+3. Напишите код в котором меняется текст: откуда изменился и сколько в общем изменении было,
+   срабатывает при каждом клике кнопки или через каждые 10 секунд (использовать rxjs либо redux).
+4. добавьте форму с несколькими полями, при submit должен хранить данные и выводить на экран,
+   при обновлении страницы данные должны остаться и меняться с инпутов.
+5. Запушить проект в гитлаб и оставить в открытом доступе со ссылкой
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

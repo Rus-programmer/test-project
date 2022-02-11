@@ -1,16 +1,27 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {MainMenuComponent} from './shared/main-menu/main-menu.component';
+import {MainPageModule} from "./modules/main-page/main-page.module";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatProgressBarModule} from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainMenuComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    MainPageModule,
+    BrowserAnimationsModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

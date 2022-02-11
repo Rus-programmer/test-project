@@ -1,0 +1,17 @@
+<div class="page-container">
+  <form class="form page-center" [formGroup]="form" (ngSubmit)="submit()">
+    <div class="form__form-control form-control">
+      <label class="form-control__label">Username</label>
+      <input class="form-control__input-text" type="text" formControlName="user">
+    </div>
+
+    <div class="form__form-control form-control">
+      <label class="form-control__label">Password</label>
+      <input class="form-control__input-text" type="password" formControlName="password">
+    </div>
+
+    <button mat-button type="submit">Сохранить</button>
+    <pre>{{form.value | json}}</pre>
+  </form>
+</div>
+

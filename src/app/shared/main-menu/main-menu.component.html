@@ -1,0 +1,19 @@
+<div class="main-layout">
+  <div class="main-layout__event">
+    {{ route:
+    <ng-container *ngIf="(state$ | async) as state">
+      {{ state.route }}
+    </ng-container>
+    , count:
+    <ng-container *ngIf="(state$ | async) as state">
+      {{ state.count }}
+    </ng-container>
+    }}
+  </div>
+  <div class="main-layout__menu-items menu-items">
+    <div class="menu-items__item" routerLink="main">Главная</div>
+    <div class="menu-items__item" routerLink="form">Форма</div>
+    <div class="menu-items__item" routerLink="mouse-click">События мыши</div>
+    <div class="menu-items__item" routerLink="timer">Таймер</div>
+  </div>
+</div>

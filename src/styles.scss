@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/shared/styles/form";
+@import "app/shared/styles/menu-layout";
+@import "app/shared/styles/timer";
+@import "app/shared/styles/welcome";
+@import "app/shared/styles/shared";
+@import "app/shared/styles/mouse-click";
+
+
+html, body { height: 100%; }
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
